@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+
+}
+
+.cursor {
+    background: yellow;
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ViewResume {
+    background-color: #00a8ff;
+    width: 20%;
+    padding: 1.5vw;
+}
+
+.SeeWork {
+    font-size: 1.5vw;
+    padding: 2vw;
+    border-radius: 0.5vw;
+    width: 20%;
+    border: none;
+    background-color: #00a8ff;
+    color: white;
+    cursor: pointer;
+
+}
+
+.SeeWork:hover {
+    background-color: #00b8ff;
+    color: #000000;
+    border: #000000 0.3vw solid;
+}
+
+.mainPF {
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+
+}
+
+.mainPF .page1 {
+    height: 100vh;
+    width: 100%;
+}
+
+
+.mainPF .page1 h1 {
+    color: white;
+    text-align: center;
+    padding-top: 15vw;
+    font-size: 5vw;
+    margin-bottom: 1.5vw;
+}
+
+.mainPF .page1 h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5vw;
+    margin-bottom: 5vw;
+}
+
+.mainPF a {
+    color: white;
+    padding: 1vw;
+    margin-left: 43%;
+
+    font-size: 1.5vw;
+    border-radius: 1vw;
+    width: 7vw;
+}
+
+.page2,
+.page3,
+.page4,
+.page5 {
+    background-color: black;
+    color: white;
+}
+
+.page2 {
+    min-height: 90vh;
+}
+
+.page3 {
+    min-height: 90vh;
+    text-align: center;
+}
+
+.page3 button svg {
+    height: 2vw;
+    width: 2vw;
+}
+
+.frontend,
+.backend,
+.tools {
+    width: 60%;
+    margin-left: 20%;
+    height: 15vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1vw;
+    margin-bottom: 5vw;
+}
+
+.backend {
+    margin-bottom: 0;
+}
+
+.frontend button,
+.backend button,
+.tools button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    gap: 1vw;
+}
+
+.backend button {
+    height: 50%;
+}
+
+.tools {
+    width: 80%;
+    margin-left: 10%;
+    height: 7.5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1vw;
+    margin-bottom: 8vw;
+}
+
+.frontend button:hover,
+.backend button:hover,
+.tools button:hover {
+    background-color: #757575;
+    color: #000000;
+    border: #ffffff7a 0.3vw solid;
+}
+
+.page2 h1,
+.page3 h1,
+.page4 h1,
+.page5 h1 {
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 1vw;
+}
+
+.page2 h2,
+.page3 h2,
+.page4 h2,
+.page5 h2 {
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 5vw;
+}
+
+.page2 p {
+    font-size: 1.5vw;
+    margin-bottom: 3vw;
+    margin-left: 2vw;
+}
+
+.page4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vw;
+    margin-bottom: 3vw;
+}
+
+.page4 p {
+    font-size: 1.5vw;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+
+.page4 .ecommerce {
+    height: 26vw;
+    width: 46vw;
+    border: white 0.3vw solid;
+    border-radius: 1vw;
+    margin-bottom: 5vw;
+    background-image: url(Screenshot\ \(317\).png);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin-left: -1%;
+}
+
+.page5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10vw;
+}
+
+hr {
+    margin-top: 5vw;
+    color: #000000;
+}
